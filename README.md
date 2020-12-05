@@ -1,1 +1,3 @@
-# ecommerce
+ONLINE MOBILE WEBSITE 
+
+  made using HTML JAVASCRIPT PHP AND AJAX
