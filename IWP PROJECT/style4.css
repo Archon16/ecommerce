@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-image:url("mobile.jpg");
+    background-repeat:no-repeat;
+}
+nav{
+	width:100%;height:15vh;
+	background:#00b894;
+	color:white;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	text-transform:uppercase;
+}
+nav .logo{
+	width:25%;text-align:center;
+	font-size:20px;
+}
+nav .menu{
+	width:40%;
+	display:flex;justify-content:space-around;
+	overflow: hidden;
+}
+nav .menu a{
+	width:25%;
+	text-decoration:none;
+	font-weight:bold;
+	display: fixed;
+	color:white;
+	font-size:20px;
+}
+section h1{
+	font-size:55px;
+	color:white;
+	font-weight:1000;
+	font-weight:bold;
+	text-shadow:5px 5px 5px black;
+}
+main{
+	width:100%;
+	height:85%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	color:black;
+}
+section h3{
+	font-size:50px;font-weight:700;letter-spacing:3px;
+	text-shadow:1px 1px 2px rgba(14, 119, 4, 0.466);
+	font-weight:bold;
+	color:white;
+	
+}
+section p{
+    font-size:30px;
+    font-weight: bolder;
+	color:rgb(207, 243, 243);
+	font-weight:1000;
+	font-weight:bold;
+	text-shadow:1px 1px 1px rgb(218, 25, 25);
+    word-spacing:2px;
+}
+.change:after{
+	content: " ";
+	animation:key1 10s infinite linear;
+	color:#d9ee1e;
+}
+@keyframes key1
+{
+	0% {content:"ONEPLUS";}
+	20%{content:"IPHONE";}
+	40%{content:"SAMSUNG";}
+	60%{content:"REALME";}
+	80%{content:"GOOGLE";}
+	100%{content:"NOKIA";}
+}
+#categories ul
+{
+	list-style:none;
+	margin:350;
+	padding:0;
+	display: block;
+	margin-bottom: 0em;
+}
+#categories ul li{
+	width:140px;
+	border:1px solid rgb(124, 89, 138);
+	height:40px;
+	font-size: 20px;
+	font-weight: bolder;
+	line-height:30px;
+	text-align:center;
+	float:right;
+	position:relative;
+	color:rgba(188, 194, 212, 0.952);
+	background-color: rgb(143, 10, 10);
+	z-index: 1;
+}
+#categories ul li:hover{
+	background:rgb(8, 8, 8);
+}
+#categories ul{
+	display:none;
+}
+#categories:hover ul{
+	display:block;
+}
+.contact
+{
+	background-color: black;
+}
+.contact-form {
+	background-color: black;
+	
+}
+.info-text{
+	color:white;
+	
+}
+.pt-2{
+	color:yellow;
+}
+.profilefonts {
+	color:white;
+	align-items: center;
+}
